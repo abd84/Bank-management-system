@@ -1,5 +1,5 @@
 # Bank-management-system
-  #Structure
+  - Structure
 - The code starts with the necessary header files and includes several standard libraries for file handling, string manipulation, and vectors.
 - The BankSystem class is defined, representing a user account in the bank system. It contains member variables to store user information such as username, password, amount stored, CNIC, date of birth, address, account number, PIN, etc. It also includes member functions for accessing and modifying these variables.
 - The Sequence class is a template class that provides functions for adding and withdrawing amounts from a user's account and updating the transaction history.
@@ -12,10 +12,10 @@ This code is an implementation of a bank management system. When the code is exe
 
 The code then provides four options:
 
-Deposit
-Withdraw
-Check account balance
-Logout
+- Deposit
+- Withdraw
+- Check account balance
+- Logout
 These functions are available for both company and user accounts. Additionally, the code saves transaction history in one file and all other client-related information in another file.
 
 However, in company accounts, only bank account users can access the company account. There is also a separate account for the bank CEO, which is predefined and can view all the transactions and account balances of clients, among other details.
